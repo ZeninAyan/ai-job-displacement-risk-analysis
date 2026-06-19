@@ -71,15 +71,15 @@ git clone https://github.com/ZeninAyan/ai-job-displacement-risk-analysis.git
 cd ai-job-displacement-risk-analysis
 
 
-Initialize a localized virtual isolation environment (recommended):
+## Initialize a localized virtual isolation environment (recommended):
 
-## For macOS / Linux:
+### For macOS / Linux:
 source venv/bin/activate
 
-## For Windows (Command Prompt - CMD):
+### For Windows (Command Prompt - CMD):
 venv\Scripts\activate
 
-## For Windows (PowerShell):
+### For Windows (PowerShell):
 .\venv\Scripts\Activate.ps1
 
 
