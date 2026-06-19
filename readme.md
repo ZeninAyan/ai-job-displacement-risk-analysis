@@ -64,22 +64,22 @@ FULL PROCESS AND SETUP TO SEE THIS PROJECT PROPERLY
 
 Environment Setup
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/ZeninAyan/ai-job-displacement-risk-analysis.git
 
-# Move into the project directory
+## Move into the project directory
 cd ai-job-displacement-risk-analysis
 
 
 Initialize a localized virtual isolation environment (recommended):
 
-# For macOS / Linux:
+## For macOS / Linux:
 source venv/bin/activate
 
-# For Windows (Command Prompt - CMD):
+## For Windows (Command Prompt - CMD):
 venv\Scripts\activate
 
-# For Windows (PowerShell):
+## For Windows (PowerShell):
 .\venv\Scripts\Activate.ps1
 
 
