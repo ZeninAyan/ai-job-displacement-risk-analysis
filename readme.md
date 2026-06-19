@@ -83,11 +83,11 @@ venv\Scripts\activate
 .\venv\Scripts\Activate.ps1
 
 
-Install the required visualization and processing dependencies sequentially:
+## Install the required visualization and processing dependencies sequentially:
 
 pip install pandas numpy matplotlib seaborn
 
 
-Launch the application workspace to execute the analysis notebook pipelines:
+## Launch the application workspace to execute the analysis notebook pipelines:
 
 python -m jupyter lab
