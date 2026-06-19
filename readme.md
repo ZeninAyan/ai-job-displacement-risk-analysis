@@ -64,16 +64,23 @@ FULL PROCESS AND SETUP TO SEE THIS PROJECT PROPERLY
 
 Environment Setup
 
-Clone this repository directly into your local execution space:
+# Clone the repository
+git clone https://github.com/ZeninAyan/ai-job-displacement-risk-analysis.git
 
-git clone [https://github.com/YOUR_GITHUB_USERNAME/ai-impact-workforce-displacement.git](https://github.com/ZeninAyan/ai-impact-workforce-displacement.git)
-cd ai-impact-workforce-displacement
+# Move into the project directory
+cd ai-job-displacement-risk-analysis
 
 
 Initialize a localized virtual isolation environment (recommended):
 
-python -m venv venv
-source venv/bin/activate  # On Windows configuration use: venv\Scripts\activate
+# For macOS / Linux:
+source venv/bin/activate
+
+# For Windows (Command Prompt - CMD):
+venv\Scripts\activate
+
+# For Windows (PowerShell):
+.\venv\Scripts\Activate.ps1
 
 
 Install the required visualization and processing dependencies sequentially:
@@ -83,4 +90,4 @@ pip install pandas numpy matplotlib seaborn
 
 Launch the application workspace to execute the analysis notebook pipelines:
 
-jupyter lab
+python -m jupyter lab
